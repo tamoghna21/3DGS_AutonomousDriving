@@ -1,0 +1,13 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128
+numpy==2.4.4
+pandas==3.0.6
+scipy==1.17.1
+pillow==12.2.0
+imageio==2.37.3
+imageio-ffmpeg==0.6.0
+matplotlib==3.11.1
+tqdm==4.69.0
+lpips==0.1.4
+pytorch-msssim==1.0.0
