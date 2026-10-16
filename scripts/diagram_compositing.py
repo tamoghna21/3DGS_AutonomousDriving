@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: MIT
-"""Diagram of the rasterizer's three steps after projection (figure for the
-article): bin Gaussians into tiles, sort each tile's list front to back and
-take the next chunk of every list, composite the chunk as one tensor.
+"""Diagram of the rasterizer's three steps after projection: bin Gaussians
+into tiles, sort each tile's list front to back and take the next chunk of
+every list, composite the chunk as one tensor.
 
     python scripts/diagram_compositing.py      -> figures/fig_compositing_diagram.png
 """

@@ -73,12 +73,11 @@ The Fréchet distance measures how different the renders are from the real photo
 
 *The drive replayed with a lane change (frames rendered by the model from viewpoints not in the training data): the three front cameras move together 3 m to the left into the oncoming lane and back. Animation created by `scripts/05_novel_views.py`.*
 
-
 ## Installation
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/tamoghna21/3DGS_AutonomousDriving.git
+cd 3DGS_AutonomousDriving
 conda env create -f env/environment.yml
 conda activate pandaset-splat
 ```
@@ -97,16 +96,14 @@ gsplat is optional and only needed for the comparison scripts. The comparison wi
 
 Download [PandaSet](https://arxiv.org/abs/2112.12610) and place the sequences under `pandaset_archive/`, one folder per sequence, as distributed.
 
-
 Another location can be passed with `--pandaset-dir`. The dataset is not included in this repository.
 
 ## Usage
 
-
 ```bash
 python scripts/01_prepare_scene.py --seq 028   # prepare images, masks and LiDAR data
 python scripts/02_check_scene.py               # calibration check and top-view map
-python scripts/03_train.py                     # train the model 
+python scripts/03_train.py                     # train the model
 python scripts/04_replay.py                    # held-out metrics and the replay video
 python scripts/05_novel_views.py               # lane-change figures and animation
 python scripts/06_figures.py                   # training progress and header figures
@@ -180,7 +177,6 @@ python scripts/03_train.py --backend gsplat --out-dir outputs/train_gsplat   # n
 python scripts/07_compare_backends.py
 ```
 
-
 ## Repository structure
 
 ```text
@@ -196,8 +192,6 @@ python scripts/07_compare_backends.py
 ## Privacy
 
 Every photo and render in `figures/` has license plates and people blurred (`splat/privacy.py`).
-
-
 
 ## Acknowledgements
 
