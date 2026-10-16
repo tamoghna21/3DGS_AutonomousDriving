@@ -18,7 +18,7 @@ The training environment has no [gsplat](https://arxiv.org/abs/2409.06765), no c
 
 ## PandaSet
 
-[PandaSet](https://arxiv.org/abs/2112.12610), from Hesai and Scale AI, is a public self-driving dataset of more than 100 sequences, each 8 seconds long (80 frames at 10 Hz). Each sequence has:
+[PandaSet](https://arxiv.org/abs/2112.12610), from Hesai and Scale AI (CC BY 4.0), is a public self-driving dataset of more than 100 sequences, each 8 seconds long (80 frames at 10 Hz). Each sequence has:
 
 - **Cameras:** six cameras (front, front-left, front-right, left, right, back) at 1920×1080, covering all around the car.
 - **LiDAR:** two LiDARs, a 360° spinning LiDAR (Pandar64) and a forward-facing long-range LiDAR (PandarGT).
