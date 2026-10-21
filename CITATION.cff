@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+type: software
+title: "Gaussian Splatting for Self-Driving Simulation, Built in Plain PyTorch"
+abstract: >-
+  3D Gaussian Splatting for driving scenes, implemented entirely in PyTorch
+  with no custom CUDA kernels. It reconstructs a PandaSet drive from camera
+  and LiDAR data and renders it from the recorded path or from a different lane.
+authors:
+  - family-names: Das
+    given-names: Tamoghna
+repository-code: "https://github.com/tamoghna21/3DGS_AutonomousDriving"
+license: MIT
+date-released: 2026-10-16
+keywords:
+  - gaussian-splatting
+  - 3dgs
+  - pytorch
+  - autonomous-driving
+  - pandaset
+  - neural-rendering
+  - novel-view-synthesis
+preferred-citation:
+  type: article
+  title: "Gaussian Splatting for Self-Driving Simulation, Built in Plain PyTorch on a Laptop GPU"
+  authors:
+    - family-names: Das
+      given-names: Tamoghna
+  journal: "Towards AI"
+  year: 2026
+  month: 10
+  url: "https://pub.towardsai.net/gaussian-splatting-for-self-driving-simulation-built-in-plain-pytorch-on-a-laptop-gpu-49ed66a0d7c6"
