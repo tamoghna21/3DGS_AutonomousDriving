@@ -4,6 +4,8 @@
 
 The training environment has no [gsplat](https://arxiv.org/abs/2409.06765), no compiled extensions and no CUDA toolkit.
 
+Write-up: [Gaussian Splatting for Self-Driving Simulation, Built in Plain PyTorch on a Laptop GPU](https://pub.towardsai.net/gaussian-splatting-for-self-driving-simulation-built-in-plain-pytorch-on-a-laptop-gpu-49ed66a0d7c6) (Towards AI)
+
 ![Left: a held-out camera photo. Right: the reconstruction rendered from the same position.](figures/fig_hero.png)
 
 *Left: a held-out camera photo. Right: the reconstruction rendered from the same position. License plates blurred. (Image produced by 06_figures.py; Data: PandaSet by Hesai and Scale AI, CC BY 4.0)*
@@ -201,3 +203,7 @@ Every photo and render in `figures/` has license plates and people blurred (`spl
 - [SplatAD](https://arxiv.org/abs/2411.16816), whose lane-shift evaluation protocol is followed
 - [TC-GS](https://arxiv.org/abs/2505.24796), whose matrix-multiply formulation of alpha is used in the renderer
 - [DINOv2](https://github.com/facebookresearch/dinov2), used for the realism score
+
+## Citation
+
+If you find this repository useful, please consider starring it and citing the [Towards AI article](https://pub.towardsai.net/gaussian-splatting-for-self-driving-simulation-built-in-plain-pytorch-on-a-laptop-gpu-49ed66a0d7c6) ("Cite this repository" on the right gives APA and BibTeX).
